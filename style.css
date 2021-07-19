@@ -25,6 +25,9 @@ h2{
   text-align: center;
   font-weight: 700;
 }
+.download b{
+  font-weight: 600
+}
 .download a{
   width: 50px;
   height: 50px;
