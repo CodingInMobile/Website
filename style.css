@@ -25,24 +25,51 @@ h2{
   text-align: center;
   font-weight: 700;
 }
-.download b{
-  font-weight: 600
-}
-.download a{
-  width: 50px;
-  height: 50px;
-  box-sizing: border-box;
-  background-color: #f1f1f1;
-  font-size: 20px;
-  border-radius: 4px;
-  color: black;
+a{
   text-decoration: none;
-  font-weight: 400;
 }
-.download a i{
-  font-size: 20px;
+.button {
+  display: flex;
+  height: 40px;
+  padding: 0;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: wheat;
+}
+
+.button:active {
+  background: #f1f1f1;
+}
+
+.button__text{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: black;
+  height: 100%;
+}
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+.button__icon ion-icon{
   color: black;
 }
+
 .foto img{
   width: 180px;
   height: 180px;
