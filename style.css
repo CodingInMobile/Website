@@ -44,13 +44,8 @@ a{
 }
 
 .button:hover {
-  background: wheat;
+  background: #84858D;
 }
-
-.button:active {
-  background: #f1f1f1;
-}
-
 .button__text{
   display: inline-flex;
   align-items: center;
@@ -64,10 +59,14 @@ a{
   padding: 0 24px;
   height: 100%;
   font-size: 1.5em;
-  background: rgba(0, 0, 0, 0.08);
+  background: #f2f2f2;
+}
+.button__icon:hover{
+  background: #84858D;
 }
 .button__icon ion-icon{
   color: black;
+  font-size: 19px;
 }
 
 .foto img{
